@@ -10,7 +10,10 @@ namespace ConsoleApp2
     {
         static void Main(string[] args)
         {
-
+            double x = Convert.ToDouble(Console.ReadLine());
+            double f = 0;
+            Console.WriteLine(f = 2 * Math.Sin(x) + 3 * Math.Cos(x));
+            Console.ReadKey();
         }
     }
 }
